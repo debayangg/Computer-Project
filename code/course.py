@@ -55,7 +55,7 @@ class course :
         for row in s:
             grade=student1.grade(int(row[row.find(':'):]))
             marks.append(grade)
-        plt.hist(marks,bins=['A','B','C','D','E','F'])
+        plt.hist(marks,bins=['A','B','C','D','E','F'],align='left')
         plt.xlabel('Grades')
         plt.ylabel('No. of Students')
         plt.title('Marks Distribution'+courseID)
