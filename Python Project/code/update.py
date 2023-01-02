@@ -1,7 +1,7 @@
 import csv
 import pandas as pd
 
-def update_csv():
+def update_csv(*args):
     #update batch when student is changed
     dict_stud={}
     with open("database/student.csv",'r') as csvfile:
