@@ -1,0 +1,9 @@
+REPORT
+
+
+Name:Debayan Ghosh            Roll No.:15
+Batch ID:CSE22                Student ID:CSE2201
+
+
+Course Name:Prolog                        Grade:F
+Course Name:Java                          Grade:F
