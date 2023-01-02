@@ -79,7 +79,6 @@ class examination :
                     lst_marks.append(marks/std)
             courses1.append([lst_batches,lst_marks])
         for row in courses1:
-            print(row)
             if row[0]==[] or row[1]==[]:
                 courses1.remove(row)
 
