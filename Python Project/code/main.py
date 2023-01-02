@@ -95,7 +95,7 @@ elif option==3:
           "2.View students in a batch\n",
           "3.View courses in a batch\n",
           "4.View student performance in a batch\n"
-          "5.Pie Chart to view makes of the students as a percentage")
+          "5.Pie Chart to view marks of the students as a percentage")
     option3=int(input("Enter your choice:"))
 
     if option3==1:
