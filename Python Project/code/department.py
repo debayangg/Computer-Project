@@ -7,14 +7,14 @@ class department :
     def __init__(self) -> None:
         pass
 
-    def createDept() :
+    def createDept(*args) :
         dept=[input("Enter department id:"),input("Enter department name:"),input("Enter batch id")]
         with open("database/department.csv",'a',newline='') as csvfile:
             csv_writer=csv.writer(csvfile)
             csv_writer.writerow(dept)
         update_csv()
 
-    def viewBatch() :
+    def viewBatch(*args) :
         dept_batch=[]
         dept_id=input("Enter the department id:")
         with open("database/department.csv",'r') as csvfile:
